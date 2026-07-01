@@ -1,0 +1,24 @@
+body
+{font-family:Arial, sans-serif;
+  font-size: 13px;
+}
+.products-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+  
+}
+.product-item{
+  background-color: rgb(196, 183, 196); 
+  padding: 20px; 
+  padding-left: 12px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
