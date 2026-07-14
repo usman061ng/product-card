@@ -1,12 +1,18 @@
 body{
-  font-family:Arial, sans-serif;
+  font-family:"montserrat";
   font-size: 13px;
+  background-image: url("images/background.jpg");
 }
 
 .products-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 10px;
+  justify-content: space-between;
 }
 
 .title {
@@ -18,7 +24,7 @@ body{
 }
 
 .product-item {
-  background-color: rgb(196, 183, 196); 
+  background-color: rgb(235, 229, 235); 
   padding: 20px; 
   padding-left: 12px;
   margin-bottom: 20px;
