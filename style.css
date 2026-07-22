@@ -1,5 +1,11 @@
-body{
-  font-family:"montserrat";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
   font-size: 13px;
   background-image: url("images/dandelions_bg.jpg");
 }
@@ -24,8 +30,8 @@ body{
 }
 
 .product-item {
-  background-color: rgb(235, 229, 235); 
-  padding: 20px; 
+  background-color: rgb(235, 229, 235);
+  padding: 20px;
   padding-left: 12px;
   margin-bottom: 20px;
   border-radius: 12px;
@@ -33,23 +39,30 @@ body{
 
 .button-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
   justify-content: center;
   margin: 40px 0;
 }
 
-.toggle-btn {
+.btn {
   font-family: "Montserrat", sans-serif;
-  background-color: #1b15d4; 
+  background-color: #b007f3;
   color: #F7F7FA;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
-  padding: 15px 35px;
+  padding: 12px 24px;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.btn:hover {
+  background-color: #1510aa;
+}
+
 .toggle-btn.active {
-  background-color: #eaee07; 
-  color: #a50bf1;
+  background-color: #13a34a;
+  color: #ffffff;
 }
