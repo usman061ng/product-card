@@ -1,13 +1,13 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-  font-family: "Montserrat", sans-serif;
+body {
+  font-family: "montserrat", sans-serif;
   font-size: 13px;
-  background-image: url("images/background.jpg");
+  background-image: url("images/dandelions_bg.jpg");
 }
 
 .products-list {
@@ -29,86 +29,40 @@ body{
   text-align: center;
 }
 
-.card {
-  background-color: #F7F7FA;
-  width: 340px;
+.product-item {
+  background-color: rgb(235, 229, 235);
+  padding: 20px;
+  padding-left: 12px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.button-container {
   display: flex;
-  flex-direction: column;
-  padding-bottom: 25px;
-  text-align: left;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 40px 0;
 }
 
-.card__image {
-  padding: 25px 25px 0 25px;
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.card__skin-type {
-  color: #A5A3B9;
-  font-size: 12px;
-  line-height: 24px;
-  padding: 25px 25px 0 25px;
-  margin: 0;
-}
-
-.card__title {
-  color: #515076;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
-  padding: 10px 25px 0 25px;
-  margin: 0;
-}
-
-.card__description {
-  color: #515076;
-  font-size: 13px;
-  line-height: 18px;
-  padding: 10px 25px 0 25px;
-  margin: 0;
-}
-
-.card__subtitle {
+.btn {
+  font-family: "Montserrat", sans-serif;
+  background-color: #b007f3;
+  color: #F7F7FA;
+  font-size: 14px;
   font-weight: 600;
-  padding: 15px 25px 5px 25px;
-  margin: 0;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.card__list {
-  padding: 0 25px 25px 25px;
-  margin: 0;
-  list-style-position: inside;
+.btn:hover {
+  background-color: #1510aa;
 }
 
-.card__list-item {
-  padding: 3px 0;
-  margin: 0;
-}
-
-.card__price-line {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 25px;
-  margin: 0;
-}
-
-.card__price-label {
-  color: #515076;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  margin: 0;
-  padding: 0;
-}
-
-.card__price-value {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 0;
-  padding: 0;
-  white-space: nowrap;
+.toggle-btn.active {
+  background-color: #13a34a;
+  color: #ffffff;
 }
