@@ -1,4 +1,4 @@
-const firstProductCard = document.querySelector('.product-item');
+const firstProductCard = document.querySelector('.card');
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card');
 const blueColorHash = '#00ffea';
 
@@ -8,7 +8,7 @@ if (changeColorFirstCardButton && firstProductCard) {
   });
 }
 
-const productCards = document.querySelectorAll('.product-item');
+const productCards = document.querySelectorAll('.card');
 const changeColorAllCardButton = document.querySelector('#change-color-all-card');
 const greenColorHash = '#0bee29';
 
@@ -45,7 +45,7 @@ function outputConsoleLog(message) {
   console.log(message);
 }
 
-const title = document.querySelector('.title');
+const title = document.querySelector('.page-title');
 
 if (title) {
   title.addEventListener('mouseenter', () => {
