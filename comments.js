@@ -1,0 +1,12 @@
+export const comments = [
+  { postId: 1, id: 1, name: "id labore ex et quam laborum", email: "Eliseo@gardner.biz", body: "laudantium enim quasi est quidem magnam voluptate ipsam eos tempora quo necessitatibus dolor quam autem quasi reiciendis et nam sapiente ea" },
+  { postId: 1, id: 2, name: "quo vero reiciendis velit similique earum", email: "Jayne_Kuhic@sydney.com", body: "est natus enim nihil est dolore omnis voluptatem numquam et omnis occaecati quod ullam at voluptatem error expedita pariatu" },
+  { postId: 1, id: 3, name: "odio adipisci rerum aut animi", email: "Nikita@garfield.biz", body: "quia molestiae reprehenderit quasi aspernatur aut expedita occaecati aliquam eveniet laudantium omnis quibusdam delectus saepe quia accusamus maiores nam est" },
+  { postId: 1, id: 4, name: "alias odio sit", email: "Lew@alysha.tv", body: "non et atque occaecati deserunt quas accusantium unde odit nobis qui voluptatem quia voluptas consequuntur itaque dolor et qui rerum deleniti ut occaecati" },
+  { postId: 1, id: 5, name: "vero eaque aliquid doloribus et culpa", email: "Hayden@althea.biz", body: "harum non quasi et ratione tempore iure ex voluptates in ratione harum architecto fugit inventore cupiditate voluptates magni quo et" },
+  { postId: 1, id: 6, name: "et fugit eligendi deleniti quidem qui sint nihil auto", email: "Presley.Mueller@myrl.com", body: "doloribus at sed quis culpa deserunt consectetur qui praesentium accusamus fugiat dicta voluptatem rerum ut ut eveniet molestiae" },
+  { postId: 1, id: 7, name: "repellat fugiat adipisci sint", email: "Dallas@ole.me", body: "maiores sed dolores similique labore et inventore at cumque et quo et repudiandae reiciendis panam" },
+  { postId: 1, id: 8, name: "et omnis dolorem", email: "Mallory_Kunze@ashton.org", body: "ut aut maxime voluptatem et sit reiciendis at voluptatem sequi aut ut rem ipsam veritatis soluta voluptatum sequi aut ut rem ipsam veritatis soluta" },
+  { postId: 1, id: 9, name: "provident occaecati eaque", email: "Meghan_Lockey@annie.ca", body: "selectus aut nisi tempore aut asperiores et omnis dolor asperiores quia aut atque quas id omnis iste ut voluptatem dolor quasi" },
+  { postId: 1, id: 10, name: "explicabo et eos deleniti nostrum", email: "Carmen_Keeling@dalia.com", body: "voluptate voluptatem accusamus eaque omnis possimus corrupti sequi at occaecati ex quibus aut asperiores et omnis dolor asperiores quia aut atque quas id omnis iste" }
+];
