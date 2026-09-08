@@ -11,7 +11,7 @@ function getCardsCount() {
   const input = prompt("Сколько карточек отобразить? От 1 до 5");
   const count = Number(input);
 
-  if (count >= 1 && count <= 5 && !isNaN(count)) {
+  if (count >= 1 && count <= 5 && Number.isInteger(count)) {
     return count;
   } else {
     alert("Некорректный ввод! Покажем все карточки по умолчанию (5 шт).");
