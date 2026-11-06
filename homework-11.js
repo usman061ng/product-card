@@ -54,16 +54,12 @@ registerForm.addEventListener('submit', (event) => {
     return;
   }
 
-  const formData = {
-    firstName: registerForm.firstName.value,
-    lastName: registerForm.lastName.value,
-    birthDate: registerForm.birthDate.value,
-    login: registerForm.login.value,
-    password: password,
-    createdOn: new Date()
-  };
+  const formDataObject = Object.fromEntries(new FormData(registerForm));
+  
+  formDataObject.password = password;
+  formDataObject.createdOn = new Date();
 
-  user = formData;
+  user = formDataObject;
 
   console.log('Успешная регистрация:', user);
 
